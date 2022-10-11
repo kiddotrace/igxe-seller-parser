@@ -50,7 +50,7 @@ class SellerData:
         if not self._sellerExist(sellers, self.sellerName):                                            
             raise Exception('Seller does not exist anymore :C')   
         
-        # Getting data about sellers and stock
+        # Getting data about seller and stock
         for seller in sellers:
             if seller.get('seller_name') == self.sellerName:
                     return {'Seller': seller.get('seller_name'),
