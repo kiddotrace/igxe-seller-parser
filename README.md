@@ -1,4 +1,4 @@
-# igxe-seller-parser
+# Live and scalable igxe seller parser
 
 ez to use, put a nickname and link
 
